@@ -1,0 +1,59 @@
+﻿/*ЭСКИЗЫ ГАЛЕРЕИ*/
+.Galereya-Eskizy {
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				margin-bottom: 30px /* Отступ внизу таблицы */;
+				border: 1px solid #E1E1E1 /* Толщина, внешний вид , цвет границы */;
+				background-color: #FFFFFF/* Цвет фона */;
+				margin-top: 25px /* Отступ сверху таблицы */;
+}
+/* ЯЧЕЙКА С БОЛЬШОЙ КАРТИНКОЙ */
+.Galereya-Eskizy th {
+				vertical-align: middle /* Выравнивание по вертикали: середина */;
+				text-align: left /*Текст слева*/;
+				padding: 0px; /*Убирает все наследуемые отступы от родительских таблиц*/
+}
+/* КАРТИНКА */
+.Galereya-Eskizy th img {
+				display: block/* Растягивает картинку по длине ячейки */;
+}
+/* ЯЧЕЙКА С ТАБЛИЦЕЙ С ЭСКИЗАМИ */
+.Galereya-Eskizy td {
+				padding: 5px/* Отступы внутри ячейки с фото эскизами */;
+				vertical-align: middle /* Выравнивание по вертикали: середина */;
+				text-align: left /*Текст слева*/;
+}
+/* ТАБЛИЦА С ЭСКИЗАМИ */
+.Galereya-Eskizy table {
+				width: 100% /*Ширина*/;
+				height: auto /* Высота */;
+				margin-bottom: 0px;/*Убирает наследуемый отступ под фото эскизами */;
+				table-layout: fixed; /*Делает адаптацию картинки внутри программы ШПД */;
+				margin-top: 0px;/*Убирает наследуемый отступ НАД фото эскизами */;
+				border: 0px solid #E1E1E1 /* Толщина, внешний вид , цвет границы */;
+}
+/* ЯЧЕЙКА С ЭСКИЗАМИ */
+.Galereya-Eskizy table td {
+				padding: 5px/*Отступы внутри ячейки*/;
+				border: 0px solid #E1E1E1 /* Толщина, внешний вид , цвет границы */;
+				width: auto /*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: верх */;
+				text-align: center /*Текст слева*/;
+}
+/* ЭСКИЗЫ */
+.Galereya-Eskizy table img {
+				width: 100% /*Ширина фотографии*/;
+				height: auto /* Высота */;
+				display: block/* Растягивает эскиз */;
+				-webkit-transition: all 0.3s ease /* Плавный переход при наведении */;
+				-moz-transition: all 0.3s ease/* Плавный переход при наведении */;
+				-o-transition: all 0.3s ease/* Плавный переход при наведении */;
+}
+/* ЭСКИЗЫ ПРИ НАВЕДЕНИИ*/
+.Galereya-Eskizy table img:hover {
+				box-shadow: 0px 0px 0px 3px #999999 /*Тень(горизонт, вертикаль, размытие, толщина)*/;
+				-webkit-transform: scale(0.9)/* Меняет размер при наведении */;
+				-ms-transform: scale(0.9)/* Меняет размер при наведении */;
+				transform: scale(0.9)/* Меняет размер при наведении */;
+}

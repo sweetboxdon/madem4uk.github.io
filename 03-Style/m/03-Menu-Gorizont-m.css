@@ -1,0 +1,112 @@
+/*ГОРИЗОНТАЛЬНОЕ МЕНЮ*/
+.Menu-Gorizont-tabl {
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				margin-bottom: 15px;
+}
+/*ЯЧЕЙКА МЕНЮ*/
+.Menu-Gorizont-tabl td {
+				border: 0px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+				padding: 0px /*Убирает отступ в 1пс от границы ячейки*/;
+				display: none;
+}
+/*ИКОНКА ВМЕСТО ТЕКСТА*/
+.Menu-Gorizont-tabl td img {
+				width: 23px;/*Размер рисунка*/;
+				height: auto;
+}
+/*НЕВИДИМАЯ ЯЧЕЙКА (ДЛЯ МОБИЛЬНОЙ ВЕРСИИ)*/
+.Menu-Gorizont-tabl th {
+				border: 0px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+				padding: 0px /*Убирает отступ в 1пс от границы ячейки*/;
+}
+/*ИКОНКА В НЕВИДИМОЙ ЯЧЕЙКЕ*/
+.Menu-Gorizont-tabl th img {
+				width: 23px; /*Ширина рисунка*/;
+				height: auto;
+				vertical-align: middle; /*Выравнивает рисунок по центру*/;
+				margin-right: 10px; /*Расстояние между рисунком и словом меню*/
+}
+/*ГОРИЗОНТАЛЬНОГО МЕНЮ В ОБЫЧНОМ СОСТОЯНИИ*/
+.Menu-Gorizont {
+				color: #FFFFFF /*Цвет шрифта*/;
+				background-color: #37ABC8 /*Цвет фона*/;
+				border-left-color: #F8F8F8 /*Цвет границы с левой стороны*/;
+				border-right-color: #E6E6E6 /*Цвет границы с правой стороны*/;
+				font-size: 80% /*Размер шрифта*/;
+				text-decoration: none /*Отменяет подчеркивание*/;
+				display: block /*Растягивает кнопку на всю ячейку*/;
+				text-align: left /*Текст по центру кнопки*/;
+				padding-bottom: 10px /*Размер кнопки вниз*/;
+				padding-top: 10px /*Размер кнопки вверх*/;
+				border-right-width: 1px /*Толщина границы с правой стороны*/;
+				border-left-width: 1px /*Толщина границы с левой стороны*/;
+				border-right-style: solid /*Тип границы с правой стороны (сплошная линия)*/;
+				border-left-style: solid /*Тип границы с левой стороны (сплошная линия)*/;
+				padding-left: 50px;
+}
+/*ГОРИЗОНТАЛЬНОГО МЕНЮ ПРИ НАВЕДЕНИИ*/
+.Menu-Gorizont:hover {
+				color: #FFFFFF /*Цвет шрифта*/;
+				background-color: #63BDD3 /*Цвет фона*/;
+				border-left-color: #E0E0E0 /*Цвет границы с левой стороны*/;
+				border-right-color: #CACACA /*Цвет границы с правой стороны*/;
+				font-size: 80% /*Размер шрифта*/;
+				text-decoration: none /*Отменяет подчеркивание*/;
+				display: block /*Растягивает кнопку на всю ячейку*/;
+				text-align: left /*Текст по центру кнопки*/;
+				padding-bottom: 10px /*Размер кнопки вниз*/;
+				padding-top: 10px /*Размер кнопки вверх*/;
+				border-right-width: 1px /*Толщина границы с правой стороны*/;
+				border-left-width: 1px /*Толщина границы с левой стороны*/;
+				border-right-style: solid /*Тип границы с правой стороны (сплошная линия)*/;
+				border-left-style: solid /*Тип границы с левой стороны (сплошная линия)*/;
+				padding-left: 50px;
+}
+/*СТИЛЬ ГОРИЗОНТАЛЬНОГО МЕНЮ НА ТЕКУЩЕЙ СТРАНИЦЕ*/
+.Menu-Gorizont2 {
+				color: #000000 /*Цвет шрифта*/;
+				background-color: #E4E4E4 /*Цвет фона*/;
+				border-left-color: #E0E0E0 /*Цвет границы с левой стороны*/;
+				border-right-color: #CACACA /*Цвет границы с правой стороны*/;
+				font-size: 80% /*Размер шрифта*/;
+				text-decoration: none /*Отменяет подчеркивание*/;
+				display: block /*Растягивает кнопку на всю ячейку*/;
+				text-align: center /*Текст по центру кнопки*/;
+				padding-bottom: 9px /*Размер кнопки вниз*/;
+				padding-top: 9px /*Размер кнопки вверх*/;
+				border-right-width: 1px /*Толщина границы с правой стороны*/;
+				border-left-width: 1px /*Толщина границы с левой стороны*/;
+				border-right-style: solid /*Тип границы с правой стороны (сплошная линия)*/;
+				border-left-style: solid /*Тип границы с левой стороны (сплошная линия)*/;
+				cursor: default;
+}
+/*СТИЛИ ФИКСИРОВАННОГО МЕНЮ*/
+#menu {
+				margin-bottom: 0px;
+				
+}
+/*ОБЫЧНОЕ СОСТОЯНИЕ МЕНЮ*/
+#menu.default {
+				width: 100%;
+				margin-top: -60px;
+}
+/*ФИКСИРОВАННОЕ СОСТОЯНИЕ*/
+#menu.fixed {
+				position: fixed;
+				top: 0;
+				z-index: 1000;
+				height: 40px /* Высота */;
+				background-color: #FFFFFF;
+				right: 0px;
+				font-size: 0px;
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				
+
+}
+/*КОРРЕКТИРУЕТ РАЗМЕР КВАДРАТИКА МЕНЮ*/
+#menu.fixed a {
+				padding-left: 12px;
+}

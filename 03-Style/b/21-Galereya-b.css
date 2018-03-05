@@ -1,0 +1,139 @@
+/*ГАЛЕРЕЯ БЛОК*/
+#Galereya {
+				width: 100% /* Ширина всей галереи */;
+				height: 100% /* Высота устанавливается автоматически */;
+				margin-bottom: 100px/* Отсуп под галереей */;
+}
+/*ГАЛЕРЕЯ ТАБЛИЦА*/
+.Galereya {
+				width: 100% /* Ширина всей галереи */;
+				height: 100% /* Высота устанавливается автоматически */;
+				table-layout: fixed; /* Делает адаптивным фото внутри программы ШПД */
+}
+/* ЯЧЕЙКА С БОЛЬШОЙ ФОТОГРАФИЕЙ */
+.Galereya th {
+				width: 70% /* Ширина ячейки */;
+				height: auto /* Высота */;
+}
+/* БОЛЬШАЯ ФОТОГРАФИЯ */
+.Galereya th img {
+				width: 100%/* Ширина ячейки */;
+				height: auto/* Высота */;
+}
+/* ЯЧЕЙКА ВНУТРИ КОТОРОЙ ТАБЛИЦА С ЭСКИЗАМИ */
+.Galereya td {
+				width: 30% /*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: top /* Выравнивание по вертикали: верх */;
+				text-align: left /*Текст слева*/;
+				padding-left: 2.3%; /* Отступ большой фото и таблицей с мини эскизами*/
+}
+/* ТАБЛИЦА С ЭСКИЗАМИ */
+.Galereya table {
+				width: 100% /*Ширина*/;
+				height: auto /* Высота */;
+				table-layout: fixed; /* Делает адаптивным фото внутри программы ШПД и Эксплорера 6 */
+}
+/* ЯЧЕЙКА С ЯЧЕЙКАМИ */
+.Galereya table td {
+				width: auto /*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: верх */;
+				text-align: center /*Текст слева*/;
+				padding: 1.3%; /* Отступы между мини эскизами*/;
+}
+/* ЭСКИЗЫ */
+.Galereya table img {
+				width: 100% /*Ширина фотографии*/;
+				height: auto /* Высота */;
+}
+/* ССЫЛКА НА ЭСКИЗЕ */
+a.minifoto {
+				padding: 2px/* Ширина контура эскиза */;
+				display: block;
+				
+}
+/* ССЫЛКА НА ЭСКИЗЕ ПРИ НАВЕДЕНИИ */
+a.minifoto:hover {
+				background: #0083C1/* Цвет контура вокруг эскиза */;
+				-webkit-transition: all 0.9s ease/* Плавный переход при наведении */;
+				-moz-transition: all 0.9s ease/* Плавный переход при наведении */;
+				-o-transition: all 0.9s ease/* Плавный переход при наведении */;
+}
+/* ССЫЛКА НА ЭСКИЗЕ ПОДСВЕТКА */
+a.minifoto2 {
+				padding: 2px/* Ширина контура эскиза */;
+				background: #0083C1/* Цвет контура вокруг эскиза */;
+				display: block;
+				
+}
+/* БЛОК НАВИГАЦИИ СКРЫТЫЙ В ДЕСКТОПНОЙ ВЕРСИИ */
+#Navig {
+				width: auto /* Ширина всей галереи */;
+				height: auto/* Высота устанавливается автоматически */;
+				display: none/* Скрывает блок навигации в десктопной версии */;
+}
+/* ТАБЛИЦА НАВИГАЦИИ СКРЫТАЯ В ДЕСКТОПНОЙ ВЕРСИИ */
+.Navigacij {
+				width: 100% /*Ширина*/;
+				height: auto /* Высота */;
+				margin-top: 20px/* Отступ сверху */;
+}
+/* ЯЧЕЙКА ДЛЯ КНОПКИ ВЫХОДА */
+.Navigacij th {
+				width: 60% /*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: верх */;
+				text-align: center /*Текст слева*/;
+}
+/* ЯЧЕЙКА ДЛЯ СТРЕЛОК ВЛЕВО ВПРАВО */
+.Navigacij td {
+				width: 20% /*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: верх */;
+				text-align: center /*Текст слева*/;
+}
+/* СТИЛЬ КНОПКИ */
+.Navigacij a {
+				border: 1px solid #C0C0C0/* Контур вокруг кнопки */;
+				font-family: Verdana /*Шрифт*/;
+				font-size: 90% /*Размер шрифта*/;
+				color: #333333 /*Цвет шрифта*/;
+				background-color: #F5F5F5 /*Цвет фона*/;
+				text-decoration: none /*Отменяет подчеркивание*/;
+				display: block /*Растягивает кнопку на всю ячейку*/;
+				text-align: center /*Текст по центру кнопки*/;
+				padding-bottom: 12px /*Размер кнопки вниз*/;
+				padding-top: 12px/*Размер кнопки вверх*/;
+				font-weight: 400;
+}
+/*СТИЛЬ КНОПКИ ПРИ НАВЕДЕНИИ*/
+.Navigacij a:hover {
+				border: 1px solid #C0C0C0/* Контур вокруг кнопки */;
+				background-color: #EAEAEA /*Цвет фона*/;
+				text-decoration: none;
+				color: #333333 /*Цвет шрифта*/;
+}
+/* КНОПКА ВЫХОДА ИЗ ГАЛЕРЕИ */
+.Navigacij input {
+				width: 100% /*Ширина*/;
+				border: 1px solid #C0C0C0;
+				font-family: Verdana /*Шрифт*/;
+				font-size: 90% /*Размер шрифта*/;
+				color: #333333 /*Цвет шрифта*/;
+				background-color: #F5F5F5 /*Цвет фона*/;
+				text-decoration: none /*Отменяет подчеркивание*/;
+				display: block /*Растягивает кнопку на всю ячейку*/;
+				text-align: center /*Текст по центру кнопки*/;
+				padding-bottom: 12px /*Размер кнопки вниз*/;
+				padding-top: 12px/*Размер кнопки вверх*/;
+				font-weight: 400/* Убирает жирное начертание шрифта */;
+				cursor: pointer/* Курсор в виде руки */;
+}
+/*КНОПКА ВЫХОДЯ ПРИ НАВЕДЕНИИ*/
+.Navigacij input:hover {
+				border: 1px solid #C0C0C0/* Контур вокруг кнопки */;
+				background-color: #EAEAEA /*Цвет фона*/;
+				text-decoration: none;
+				color: #333333 /*Цвет шрифта*/;
+}

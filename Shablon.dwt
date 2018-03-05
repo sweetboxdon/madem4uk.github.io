@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+<script type="text/javascript" src="04-Skript/jquery-1.11.1.min.js"></script> 
+<meta http-equiv="Content-Language" content="ru" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+
+<!-- #BeginEditable "doctitle" -->
+
+<title>Интернет магазин SweetBox</title>
+<meta name="keywords" content="Ключевые слова" />
+<meta name="description" content="Описание страницы" />
+<!-- #EndEditable -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" media="screen and (min-width: 801px) " href="03-Style/b/00-Super-b.css" />
+<link rel="stylesheet" media="screen and (max-width: 800px) " href="03-Style/m/00-Super-m.css" />
+<!--[if IE ]> <link rel="stylesheet" href="03-Style/b/00-Super-b.css" /><![endif]-->
+<!--[if IE6 ]> <style type="text/css"> .Baner th div {display: none/* Убирает слайдер внутри SPD */; } </style><![endif]-->
+
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<script type="text/javascript" src="04-Skript/wow.min.js"></script>
+<script type="text/javascript" src="04-Skript/skript.js"></script>
+<script>new WOW().init();</script>
+
+</head>
+
+<body>
+
+<div id="list">
+	<table class="Shapka">
+		<tr>
+			<th><img alt="" src="07-Images/01-Primer.png" /></th>
+			<td>Интернет-магазин наборов со сладостями. <br />
+			Доставка по Донецк, Макеевка, Моспино.</td>
+			<td>8 (499) 123-45-67</td>
+		</tr>
+	</table>
+	<div id="menu" class="default">
+		<table class="Menu-Gorizont-tabl">
+			<tr>
+				<td><a class="Menu-Gorizont" href="index.htm">ГЛАВНАЯ</a></td>
+				<td><a class="Menu-Gorizont" href="08-Tovar/09-dostavka.htm">ДОСТАВКА</a></td>
+				<td><a class="Menu-Gorizont" href="08-Tovar/10-kontakti.htm">КОНТАКТЫ</a></td>
+				<th><a class="Menu-Gorizont" href="08-Tovar/01-menu-mobil.htm">
+				<img alt="" src="06-Iconki/MenuFilled50.png" />МЕНЮ</a></th>
+			</tr>
+		</table>
+	</div>
+<!-- #BeginEditable "baner" -->
+	<table class="Baner">
+		<tr>
+			<th>
+			<img alt="" src="07-Images/597323082_2_644x461_sweet-box-luchshiy-podarok-na-lyuboy-prazdnik-fotografii.jpg" /></th>
+			<td>
+			<h2>SweetBox - сладости для радости</h2>
+			<p>У нас вы можете заказать SweetBox со сладостями из Америки и 
+			Европы на ваш вкус! Оригинальная упаковка, любые сладости на ваш 
+			выбор и отличное настроение! </p>
+			<p style="margin-bottom: 0px"><a class="Knopka1" href="zakaz/">
+			ОФОРМИТЬ ЗАКАЗ</a></p>
+			<p id="podrobno" style="margin-top: 11px">
+			<a class="Knopka2" href="#podrobno">УЗНАТЬ ПОДРОБНЕЕ&nbsp; ›</a>&nbsp;
+			</p>
+			</td>
+		</tr>
+	</table>
+<!-- #EndEditable -->
+	<table class="Тelo">
+		<tr>
+			<td><!-- #BeginEditable "telo" -->
+			<table class="Kroshki">
+				<tr>
+					<td>
+					<img alt="" src="06-Iconki/Home-26.png" width="20" height="20" />&nbsp;
+					<a href="index.htm">Главная</a>&nbsp; ›&nbsp; <a href="index.htm">
+					Каталог</a>&nbsp; ›&nbsp; Белые наборы</td>
+				</tr>
+			</table>
+			<h1>Заголовок текста</h1>
+			<p>‹ поставь сюда курсор</p>
+<!-- #EndEditable -->
+			</td>
+			<th>&nbsp;</th>
+		</tr>
+	</table>
+	<p style="margin-bottom: 16px">© Вкусные сладости</p>
+</div>
+
+</body>
+
+</html>

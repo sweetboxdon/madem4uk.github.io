@@ -1,0 +1,110 @@
+/*Стиль используется для создания отдельного меню
+для мобильных устройств*/ 
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	background-color: #37ABC8 ;
+}
+
+
+.Menu-Gorizont-tabl /*Таблица горизонтального меню*/ {
+	width: 100% /* Ширина */;
+	height: 100% /* Высота */;
+	margin-top: 0px;
+	font-family: Arial;
+	font-size: 100%;
+	
+}
+.Menu-Gorizont-tabl td /*Обычная ячейка с разделами для монитора*/
+{
+	border: 0px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+	padding: 0px /*Убирает отступ в 1пс от границы ячейки*/;
+	width: auto /* Ширина */;
+	height: auto /* Высота */;
+
+}
+	
+.Menu-Gorizont-tabl td img /*Рисунок Домик в первой ячейке*/
+ {
+	width: 25px; /*Отступ над меню*/
+	height: auto;
+	vertical-align: middle; /*Выравнивает рисунок по центру*/
+		}
+
+.Menu-Gorizont-tabl th /*Ячейка заголовка с МЕНЮ для мобильных устройств*/
+ {
+	border: 0px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+	padding: 0px /*Убирает отступ в 1пс от границы ячейки*/;
+	display: none; /*Убирает ячейку с МЕНЮ из версии для Монитора*/}
+	
+.Menu-Gorizont-tabl th img /*Рисунок МЕНЮ в ячейке для мобильных устройств*/
+ {
+	width: 23px; /*Отступ над меню*/
+	height: auto;
+	vertical-align: middle; /*Выравнивает рисунок по центру*/
+	margin-right: 10px; /*Расстояние между рисунком и словом меню*/
+}
+
+
+	
+
+
+/*ГОРИЗОНТАЛЬНОГО МЕНЮ В ОБЫЧНОМ СОСТОЯНИИ*/
+.Menu-Gorizont {
+	color: #FFFFFF /*Цвет шрифта*/;
+	background-color: #37ABC8 /*Цвет фона*/;
+	font-size: 80% /*Размер шрифта*/;
+	text-decoration: none /*Отменяет подчеркивание*/;
+	display: block /*Растягивает кнопку на всю ячейку*/;
+	text-align: left /*Текст по центру кнопки*/;
+	padding-bottom: 11px /*Размер кнопки вниз*/;
+	padding-top: 11px /*Размер кнопки вверх*/;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #3197B0;
+	border-top-color: #51B5CE;
+	border-top-style: solid;
+	border-top-width: 1px;
+	padding-left: 50px;
+}
+
+/*ГОРИЗОНТАЛЬНОГО МЕНЮ ПРИ НАВЕДЕНИИ*/
+.Menu-Gorizont:hover {
+	color: #FFFFFF /*Цвет шрифта*/;
+	background-color: #2E8EA7 /*Цвет фона*/;
+	border-left-color: #E0E0E0 /*Цвет границы с левой стороны*/;
+	border-right-color: #CACACA /*Цвет границы с правой стороны*/;
+	font-size: 80% /*Размер шрифта*/;
+	text-decoration: none /*Отменяет подчеркивание*/;
+	display: block /*Растягивает кнопку на всю ячейку*/;
+	text-align: left /*Текст по центру кнопки*/;
+	padding-bottom: 11px /*Размер кнопки вниз*/;
+	padding-top: 11px /*Размер кнопки вверх*/;
+	border-right-width: 0px /*Толщина границы с правой стороны*/;
+	border-left-width: 0px /*Толщина границы с левой стороны*/;
+	border-right-style: solid /*Тип границы с правой стороны (сплошная линия)*/;
+	border-left-style: solid /*Тип границы с левой стороны (сплошная линия)*/;
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+}
+
+/*ГОРИЗОНТАЛЬНОГО МЕНЮ АКТИВНОЕ*/
+.Menu-Gorizont2 {
+	color: #000000 /*Цвет шрифта*/;
+	background-color: #E4E4E4 /*Цвет фона*/;
+	border-left-color: #E0E0E0 /*Цвет границы с левой стороны*/;
+	border-right-color: #CACACA /*Цвет границы с правой стороны*/;
+	font-size: 80% /*Размер шрифта*/;
+	text-decoration: none /*Отменяет подчеркивание*/;
+	display: block /*Растягивает кнопку на всю ячейку*/;
+	text-align: center /*Текст по центру кнопки*/;
+	padding-bottom: 9px /*Размер кнопки вниз*/;
+	padding-top: 9px /*Размер кнопки вверх*/;
+	border-right-width: 1px /*Толщина границы с правой стороны*/;
+	border-left-width: 1px /*Толщина границы с левой стороны*/;
+	border-right-style: solid /*Тип границы с правой стороны (сплошная линия)*/;
+	border-left-style: solid /*Тип границы с левой стороны (сплошная линия)*/;
+	cursor: default;
+}

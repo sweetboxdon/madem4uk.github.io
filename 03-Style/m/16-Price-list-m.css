@@ -1,0 +1,60 @@
+﻿/* ПРАЙС-ЛИСТ */
+.Price-list {
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				margin-bottom: 30px /* Отступ внизу таблицы */;
+}
+/* ЯЧЕЙКА ЗАГОЛОВКА */
+.Price-list th {
+				border: 1px solid #EBEBEB/* Контур вокруг ячейки */;
+				background-color: #F7F7F7/* Фон*/;
+				padding: 6px/* Отступ текста со всех сторон */;
+				text-align: left/* Выравнивание текста по левому краю */;
+				text-decoration: none/* Убирает подчеркивание */;
+				width: auto /* Ширина */;
+				height: auto /* Высота */;
+}
+/* СТРОКА */
+.Price-list tr {
+				background-color: #FFFFFF/* Выделение строки цветом */;
+}
+/* ПОДСВЕТКА СТРОКИ ПРИ НАВЕДЕНИИ */
+.Price-list tr:hover {
+				background-color: #FCFCFC/* Изменяет цвет строки при наведении */;
+}
+/* ЯЧЕЙКА ОБЫЧНАЯ */
+.Price-list td {
+				border: 1px solid #EFEFEF/* Контур вокруг ячейки */;
+				padding: 6px 10px 6px 10px/* Отступ текста от краев внутри ячейки */;
+				vertical-align: middle/* Вертикальное выравнивание посередине */;
+				width: auto /* Ширина */;
+				height: auto /* Высота */;
+				line-height: 125% /*Расстояние между строк текста внутри ячейки*/;
+}
+
+/*ТЕКСТ ДЛЯ СМАРТФОНОВ*/
+.Price-list {
+				font-size: 80%/* Размер шрифта */;
+}
+/* ТЕКСТ ДЛЯ ПЛАНШЕТОВ БОЛЬШЕ 600 пиксел */
+@media screen and (min-width: 595px)
+{
+/*ТЕКСТ ДЛЯ ПЛАНШЕТОВ*/
+.Price-list {
+				font-size: 100%/* Размер шрифта */;
+}
+}
+
+/* ССЫЛКА */
+.Price-list a {
+				color: #006699/* Цвет ссылки */;
+				text-decoration: underline;
+}
+/* СТРОКА ПРИ НАВЕДЕНИИ*/
+.Price-list a:hover {
+				color: #CC3300/* Цвет ссылки при наведении */;
+				text-decoration: underline;
+
+}
+
+

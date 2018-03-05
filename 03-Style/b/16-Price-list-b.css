@@ -1,0 +1,43 @@
+﻿/* ПРАЙС-ЛИСТ */
+.Price-list {
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				margin-bottom: 30px /* Отступ внизу таблицы */;
+}
+/* ЯЧЕЙКА ЗАГОЛОВКА */
+.Price-list th {
+				border: 1px solid #EBEBEB/*Контур вокруг ячейки */;
+				background-color: #F7F7F7/* Цвет фона */;
+				padding: 6px 10px 6px 10px/* Отсупы текста внутри ячейки с разных сторон */;
+				text-align: left/* Веравнивание текста по левому краю */;
+				text-decoration: none/* Удаляет подчеркивание шрифта */;
+				width: auto /* Ширина */;
+				height: auto /* Высота */;
+}
+/* СТРОКА */
+.Price-list tr {
+				background-color: #FFFFFF/* Цвет фона строки */;
+}
+/* ЯЧЕЙКА */
+.Price-list td {
+				border: 1px solid #EFEFEF/* Контур вокруг ячейки */;
+				padding: 6px 10px 6px 10px/* Отсупы текста внутри ячейки с разных сторон */;
+				vertical-align: middle;
+				width: auto /* Ширина */;
+				height: auto /* Высота */;
+}
+/* ПОДСВЕТКА СТРОКИ ПРИ НАВЕДЕНИИ */
+.Price-list tr:hover {
+				background-color: #FCFCFC/*Цвет фона */;
+}
+/* ССЫЛКА ВНУТРИ ПРАЙС-ЛИСТА */
+.Price-list a {
+				font-size: 95%/* Размер шрифта */;
+				color: #333333/* Цвет шрифта */;
+				text-decoration: none/* Убирает подчеркивание */;
+}
+/* ССЫЛКА ВНУТРИ ПРАЙС-ЛИСТА ПРИ НАВЕДЕНИИ*/
+.Price-list a:hover {
+				color: #333333/* Цвет шрифта */;
+				text-decoration: underline/* Подчеркивание текста */;
+}

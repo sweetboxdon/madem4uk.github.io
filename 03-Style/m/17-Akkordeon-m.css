@@ -1,0 +1,31 @@
+﻿/*АККОРДЕОН */
+.accordion {
+				border: 1px solid #ddd/*Контур вокруг Аккордеона */;
+				border-top: none/*Удаляет верхную линию конура */;
+				float: center;
+				width: 100%;
+				position: relative;
+				margin-bottom: 25px; /*Отступ снизу под аккордеоном */
+}
+.accordion a {
+				display: block;
+				text-decoration: none;
+}
+.accordion h2 {
+				padding: 15px;
+				background-color: #F7F7F7; /*Фон заголовка */;
+				border-top: 1px solid #ddd/*Рисует верхнюю линию контура */;
+				color: #333333; /*Цвет шрифта */;
+				font-size: 100%; /*Размр шрифта */;
+				height: auto; /*Ширина полосы с заголовком */;
+				margin: 0 0 0 0;
+				cursor: pointer;
+				font-family: Verdana/*Шрифт */;
+}
+.accordion h2:hover {
+				background-color: #EEEEEE; /*Фон заголовка при наведении */;
+}
+.acc {
+				width: 95%; /*Ширина блока меньше ширины Аккордеона, чтобы были поля */;
+				margin: 0 auto /*Размещение по центру страницы*/;
+}

@@ -1,0 +1,56 @@
+﻿/*КАТАЛОГ ТОВАРОВ В ВИДЕ ТАБЛИЦЫ*/.Katalog-tablica 
+
+{
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				background-color: #FFFFFF/* Фон  */;
+				margin-bottom: 20px /* Отступ внизу таблицы */;
+				border: 0px solid #E6E6E6/* Рамка вокруг каталога */;
+				table-layout: fixed/* Делает одинаковыми ячейки */;
+				
+}
+
+/* ЯЧЕЙКА С КАРТИНКОЙ */.Katalog-tablica th 
+
+{
+				padding: 0px 0px 0px 0px; /*отступ картинки со всех сторон */
+				width: auto /* Ширина */;
+				height: auto /* Высота */;
+				vertical-align: top /* Выравнивание по вертикали: верх */;
+				text-align: center /*Текст слева*/;
+}
+
+/* КАРТИНКА */.Katalog-tablica th img 
+
+{
+	
+	width: 85% /*Ширина фотографии*/;
+	height: auto /* Высота */;
+	-webkit-transition: all 0.3s ease/* Плавный переход при наведении */;
+	-moz-transition: all 0.3s ease/* Плавный переход при наведении */;
+	-o-transition: all 0.3s ease/* Плавный переход при наведении */;
+
+}
+
+/* КАРТИНКА ПРИ НАВЕДЕНИИ */.Katalog-tablica th img:hover 
+
+{
+	box-shadow: 0px 0px 0px 0px #999999 /*Тень(горизонт, вертикаль, размытие, толщина)*/;
+    -webkit-transform: scale(0.93)/* Меняет размер картинки при наведении */;
+        -ms-transform: scale(0.93)/* Меняет размер картинки при наведении */;
+        transform: scale(0.93)/* Меняет размер картинки при наведении */;
+	}
+
+
+/* ЯЧЕЙКА С ТЕКСТОМ */.Katalog-tablica td 
+
+{
+				width: auto /*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: верх */;
+				text-align: center /*Текст слева*/;
+				border: 0px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+				padding-top: 10px/* Отступ текста сверху */;
+				padding-bottom: 15px/* Отступ под текстом */;
+}
+

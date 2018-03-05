@@ -1,0 +1,64 @@
+﻿/*ПОДВАЛ САЙТА БЛОК*/
+#Podval {
+				width: 1010px/* Ширина */;
+				height: auto /* Высота */;
+				border: 1px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+				box-shadow: 0px 0px 0px 0px #EAEAEA /*Тень(горизонт, вертикаль, размытие, толщина)*/;
+				margin: 0 auto /*Размещение по центру страницы*/;
+				z-index: 1300;
+				}
+/*ПОДВАЛ САЙТА*/
+.Podval {
+				width: 100%/* Ширина */;
+				height: auto /* Высота */;
+				border: 1px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+				background-color: #E9E9E9/* Фон подвала */;
+				margin-bottom: 0px;
+}
+/* ЯЧЕЙКА ОБЫЧНАЯ */
+.Podval td {
+				width: 20% /*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: top /* Выравнивание по вертикали: верх */;
+				text-align: left /*Текст слева*/;
+				padding-bottom: 0px/*Отступ текста снизу */;
+				padding-left: 60px/* Отступ текста слева */;
+				padding-top: 10px;/* Отступ текста сверху */
+}
+
+/* ЯЧЕЙКА С КОПИРАЙТОМ */
+.Podval th {
+				width: auto /*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: top /* Выравнивание по вертикали: верх */;
+				text-align: left /*Текст слева*/;
+				padding-bottom: 15px/*Отступ текста снизу */;
+				padding-left: 30px/* Отступ текста слева */;
+				padding-top: 15px;/* Отступ текста сверху */
+}
+
+
+/* СОСЕДНИЕ ЯЧЕЙКИ (2,3,4) */
+.Podval td + td {
+				padding-left: 25px/* Отступ текста слева в соседних ячейках */;
+}
+/* СПИСОК */
+.Podval ul {
+				font-size: 90% /*Размер шрифта*/;
+				padding-left/* Отступ слева */: 0px;
+				color/* Цвет шрифта */: #666666;
+}
+/* СТРОЧКИ В СПИСКЕ*/
+.Podval li {
+				margin-bottom: 5px/* Расстояние между строчками */;
+}
+/* ССЫЛКА */
+.Podval ul a {
+				color: #666666/* Цвет ссылки */;
+				text-decoration: none/* Убирает подчеркивание */;
+}
+/* ССЫЛКА ПРИ НАВЕДЕНИИ */
+.Podval ul a:hover {
+				color: #666666/* Цвет ссылки при наведении */;
+				text-decoration: underline/* Убирает подчеркивание */;
+}

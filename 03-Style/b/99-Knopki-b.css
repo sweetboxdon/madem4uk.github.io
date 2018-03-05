@@ -1,0 +1,158 @@
+﻿a.Knopka1 {
+				font-size: 100%/*Размер текста в кнопке КАТАЛОГ*/;
+				text-align: center/*Выравнивает текст в кнопке по середине*/;
+				background-color: #37ABC8/*Цвет кнопки*/;
+				border: 1px solid #2E8EA7/*Рамка вокруг кнопки*/;
+				padding: 9px 20px 9px 20px/*Размеры кнопки*/;
+				color: #FFFFFF/*Цвет текста кнопки*/;
+				text-decoration: none/*Убирает подчеркивание*/;
+				font-family: Arial/*Шрифт кнопки*/;
+				display: block/*Растягивает кнопку на всю длину блока*/;
+				webkit-border-radius : 5px /*Скругление углов*/;
+				moz-border-radius: 5px /*Скругление углов*/;
+				border-radius: 5px /*Скругление углов*/;
+}
+a.Knopka1:hover {
+				background-color: #3197B0/*Цвет кнопки при наведении*/;
+				color: #FFFFFF/* Цвет шрифта при наведении */;
+				text-decoration: none/* Убирает подчеркивание */;
+}
+a.Knopka2 {
+				font-size: 100%/*Размер текста в кнопке КАТАЛОГ*/;
+				text-align: center/*Выравнивает текст в кнопке по середине*/;
+				border: 1px solid #C0C0C0/*Рамка вокруг кнопки*/;
+				padding: 8px 20px 8px 20px/*Размеры кнопки*/;
+				color: #8F8F8F/*Цвет текста кнопки*/;
+				text-decoration: none/*Убирает подчеркивание*/;
+				font-family: Arial/*Шрифт кнопки*/;
+				display: block/*Растягивает кнопку на всю длину блока*/;
+				webkit-border-radius : 5px /*Скругление углов*/;
+				moz-border-radius: 5px /*Скругление углов*/;
+				border-radius: 5px /*Скругление углов*/;
+				
+}
+a.Knopka2:hover {
+				border: 1px solid #999999/*Рамка вокруг кнопки*/;
+				color: #666666/* Цвет шрифта при наведении */;
+				background-color: #F5F5F5;
+				text-decoration: none/* Убирает подчеркивание */;
+}
+a.Knopka3 {
+				font-size: 90%/*Размер текста в кнопке КАТАЛОГ*/;
+				text-align: center/*Выравнивает текст в кнопке по середине*/;
+				background-color: #37ABC8/*Цвет кнопки*/;
+				border: 1px solid #2E8EA7/*Рамка вокруг кнопки*/;
+				padding: 9px 20px 9px 20px/*Размеры кнопки*/;
+				color: #FFFFFF/*Цвет текста кнопки*/;
+				text-decoration: none/*Убирает подчеркивание*/;
+				font-family: Arial/*Шрифт кнопки*/;
+				webkit-border-radius : 3px /*Скругление углов*/;
+				moz-border-radius: 3px /*Скругление углов*/;
+				border-radius: 3px /*Скругление углов*/;
+}
+a.Knopka3:hover {
+				background-color: #3197B0/*Цвет кнопки при наведении*/;
+				color: #FFFFFF/* Цвет шрифта при наведении */;
+}
+a.Knopka4 {
+				font-size: 90%/*Размер текста в кнопке КАТАЛОГ*/;
+				text-align: center/*Выравнивает текст в кнопке по середине*/;
+				border: 1px solid #C0C0C0/*Рамка вокруг кнопки*/;
+				padding: 9px 20px 9px 20px/*Размеры кнопки*/;
+				color: #8F8F8F/*Цвет текста кнопки*/;
+				text-decoration: none/*Убирает подчеркивание*/;
+				font-family: Arial/*Шрифт кнопки*/;
+				webkit-border-radius : 3px /*Скругление углов*/;
+				moz-border-radius: 3px /*Скругление углов*/;
+				border-radius: 3px /*Скругление углов*/;
+}
+a.Knopka4:hover {
+				border: 1px solid #999999/*Рамка вокруг кнопки*/;
+				color: #666666/* Цвет шрифта при наведении */;
+				background-color: #F5F5F5;
+}
+a.Knopka5 {
+				font-size: 90%/*Размер текста в кнопке КАТАЛОГ*/;
+				text-align: center/*Выравнивает текст в кнопке по середине*/;
+				background-color: #F0F0F0/*Цвет кнопки*/;
+				border: 1px solid #CECECE/*Рамка вокруг кнопки*/;
+				padding: 9px 20px 9px 20px/*Размеры кнопки*/;
+				color: #797979/*Цвет текста кнопки*/;
+				text-decoration: none/*Убирает подчеркивание*/;
+				font-family: Arial/*Шрифт кнопки*/;
+				webkit-border-radius : 3px /*Скругление углов*/;
+				moz-border-radius: 3px /*Скругление углов*/;
+				border-radius: 3px /*Скругление углов*/;
+}
+a.Knopka5:hover {
+				background-color: #E9E9E9/*Цвет кнопки при наведении*/;
+				color: #595959/* Цвет шрифта при наведении */;
+}
+a.Knopka6 {
+				font-size: 90%/*Размер текста в кнопке КАТАЛОГ*/;
+				text-align: center/*Выравнивает текст в кнопке по середине*/;
+				background-color: #CC3300/*Цвет кнопки*/;
+				border: 1px solid #AA2B00/*Рамка вокруг кнопки*/;
+				padding: 11px 20px 11px 20px/*Размеры кнопки*/;
+				color: #FFFFFF/*Цвет текста кнопки*/;
+				text-decoration: none/*Убирает подчеркивание*/;
+				font-family: Arial/*Шрифт кнопки*/;
+				webkit-border-radius : 3px /*Скругление углов*/;
+				moz-border-radius: 3px /*Скругление углов*/;
+				border-radius: 3px /*Скругление углов*/;
+}
+a.Knopka6:hover {
+				background-color: #B02D00/*Цвет кнопки при наведении*/;
+				color: #FFFFFF/* Цвет шрифта при наведении */;
+}
+
+a.Knopka7 {
+				font-size: 90%/*Размер текста в кнопке КАТАЛОГ*/;
+				text-align: center/*Выравнивает текст в кнопке по середине*/;
+				background-color: #37ABC8/*Цвет кнопки*/;
+				border: 1px solid #2E8EA7/*Рамка вокруг кнопки*/;
+				padding: 15px 30px 15px 30px/*Размеры кнопки*/;
+				color: #FFFFFF/*Цвет текста кнопки*/;
+				text-decoration: none/*Убирает подчеркивание*/;
+				font-family: Arial/*Шрифт кнопки*/;
+				webkit-border-radius : 3px /*Скругление углов*/;
+				moz-border-radius: 3px /*Скругление углов*/;
+				border-radius: 3px /*Скругление углов*/;
+}
+a.Knopka7:hover {
+				background-color: #3197B0/*Цвет кнопки при наведении*/;
+				color: #FFFFFF/* Цвет шрифта при наведении */;
+
+
+}
+a.Podskazka {
+				text-decoration: none;
+				border-bottom-style: dashed;
+				border-bottom-width: 1px;
+				color: #006699
+}
+a.Podskazka:hover {
+				background-color: #F8F8F8/*Цвет кнопки при наведении*/;
+				color: #006699;
+				cursor: help;
+}
+
+
+/* МОДИФИКАЦИЯ КНОПОК 3 и 4 ДЛЯ ЭКРАНОВ МЕНЬШЕ 400  ПС */
+@media screen and (max-width: 400px)
+{
+a.Knopka3 {
+				display: block/*Растягивает кнопку на всю длину блока*/;
+				max-width: 150px/*Максимальная ширина кнопок*/;
+				padding: 4px 20px 4px 20px/*Размеры кнопки*/;
+
+}
+a.Knopka4 {
+				display: block/*Растягивает кнопку на всю длину блока*/;
+				max-width: 150px/*Максимальная ширина кнопок*/;
+				margin-top: -15px/*Поднимает кнопку вверх*/;
+				padding: 4px 20px 4px 20px/*Размеры кнопки*/;
+
+}
+}
+

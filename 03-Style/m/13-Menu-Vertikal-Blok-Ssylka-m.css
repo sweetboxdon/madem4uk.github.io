@@ -1,0 +1,65 @@
+﻿/*БЛОК-ССЫЛКА ДЛЯ ВЕРТИКАЛЬНОГО МЕНЮ*/
+.Blok-Ssylka {
+				width: 100%; /* Ширина слоя */;
+				height: auto; /* Высота слоя */;
+}
+.Blok-Ssylka a.bs {
+				display: block; /* Ссылка как блочный элемент */;
+				text-align: center; /* Выравнивание по центру */;
+				height: 100%; /* Высота на весь слой */;
+				color: #808080/* Цвет шрифта */;
+				text-decoration: none/* Удаляет подчеркивание */;
+				background-color: #FCFCFC/* Цвет фона */;
+}
+/*БЛОК-ССЫЛКА ПРИ НАВЕДЕНИИ*/
+.Blok-Ssylka a:hover {
+				color: #000000/* Цвет шрифта */;
+				text-decoration: none/* Убирает подчеркивание */;
+				background-color: #F3F3F3/* Фон */;
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				
+}
+				
+
+/*БЛОК-ССЫЛКА НА ТЕКУЩЕЙ СТРАНИЦЕ*/
+.Blok-Ssylka a.bs2 {
+				display: block; /* Ссылка как блочный элемент */;
+				text-align: center; /* Выравнивание по центру */;
+				height: 100%; /* Высота на весь слой */;
+				color: #000000/* Цвет шрифта */;
+				text-decoration: none/* Убирает подчеркивание */;
+				background-color: #F3F3F3/* Фон */;
+}
+/* ТАБЛИЦА С КАРТИНКОЙ И ТЕКСТОМ */
+.Menu-Vertikal-Blok-Ssylka {
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				background-color: /*Цвет фона*/;
+				margin-bottom: 0px/* Убирает наследуемый отступ снизу */;
+				border: 0px solid #FFFFFF/* Убирает наследуемую рамку */;
+}
+/* ЯЧЕЙКА С КАРТИНКОЙ */
+.Menu-Vertikal-Blok-Ssylka td {
+				padding: 7px/*Отступ картинки со всех сторон */;
+				width: 25% /* Ширина */;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: верх */;
+				text-align: left /*Текст слева*/;
+				border: 0px solid #FFFFFF/* Убирает контур */;
+}
+/* КАРТИНКА */
+.Menu-Vertikal-Blok-Ssylka th img {
+				display: block/* Растягивает картинку на всю ширину */;
+}
+/* ЯЧЕЙКА С ТЕКСТОМ */
+.Menu-Vertikal-Blok-Ssylka td  + td {
+				width: 75% /*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: верх */;
+				text-align: left /*Текст слева*/;
+				border: 0px solid #FFFFFF/*Убирает рамку*/;
+				font-size: 85%/* Размер ШРИФТА */;
+				padding-right: 10px/* Отступ шрифта СПРАВА */;
+}

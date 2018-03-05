@@ -1,0 +1,141 @@
+﻿/*ВНЕШНИЙ ВИД ФОРМЫ ОБРАТНОЙ СВЯЗИ*/
+.Kontakt {
+				width: auto /*Ширина*/;
+				height: auto /*Высота*/;
+				background-color : #FCFCFC/*Цвет фона*/;
+				border: 1px solid #E1E1E1 /*Рамка (толщина, начертание,цвет*/;
+				webkit-border-radius : 0px /*Скругление углов*/;
+				moz-border-radius: 0px /*Скругление углов*/;
+				border-radius: 0px /*Скругление углов*/;
+				margin-bottom: 25px /*Отступ формы снизу*/;
+				margin-top: 25px /*Отступ формы сверху*/;
+}
+/*ТАБЛИЦА ВНУТРИ ФОРМЫ*/
+.Kontakt table {
+				width: 100% /*Ширина*/;
+				height: auto /*Высота*/;
+				margin-top: 30px /*Отступ таблицы сверху*/;
+				margin-bottom: 30px /*Отступ таблицы снизу*/;
+				color: #333333 /*Цвет Шрифта внутри формы*/;
+				border: 0px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+}
+/* ЯЧЕЙКА С НАЗВАНИЕМ ПОЛЕЙ */
+.Kontakt table td {
+				width: 35% /*Ширина*/;
+				height: auto /*Высота*/;
+				vertical-align: middle/*Выравнивание внутри ячейки по центру*/;
+				text-align: left/*Выравнивание текста по левой стороне*/;
+				padding-right: 0px /*Отступ справа*/;
+				padding-left: 30px/*Отступ слева*/;
+				border: 0px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+}
+/* ЯЧЕЙКА ЗАГОЛОВКА С ФОРМАМИ */
+.Kontakt table th {
+				width: 65% /*Ширина*/;
+				height: auto /*Высота*/;
+				vertical-align: middle/*Выравнивание внутри ячейки по центру*/;
+				text-align: left/*Выравнивание текста по левой стороне*/;
+				padding-right: 25px/*Отступ справа*/;
+				padding-left: 25px/*Отступ слева*/;
+				border: 0px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+}
+/* ИКОНКА РЯДОМ С НАЗВАНИЕМ */
+.Kontakt table img {
+				vertical-align: middle/*Выравнивает иконку по центру текста*/;
+				margin-right: 10px/*Расстояние между иконкой и названием*/;
+				margin-top: 0px/*Смещение иконки вверх-вниз относительно текста*/;
+}
+/* СТРОКА */
+.Kontakt table tr {
+				color: #919191/*Цвет шрифта в строке*/;
+}
+/* СТРОКА ПРИ НАВЕДЕНИИ */
+.Kontakt table tr:hover {
+				color: #000000/* Цвет шрифта в строке при наведении */;
+}
+/*ПОЛЕ ДЛЯ ВВОДА ТЕКСТА*/
+.Kontakt input {
+				width: 80% /*Ширина*/;
+				height: 30px /*Высота*/;
+				background-color: #FFFFFF /*Цвет фона*/;
+				border: 1px solid #E1E1E1 /*Рамка (толщина, начертание,цвет*/;
+				webkit-border-radius: 5px /*Скругление углов*/;
+				moz-border-radius: 5px /*Скругление углов*/;
+				border-radius: 5px /*Скругление углов*/;
+				margin-bottom: 7px /*Отступ от поля вниз*/;
+				padding-right: 20px /*Отступ текста при вводе в поле справа*/;
+				padding-left: 20px /*Отступ текста при вводе в поле слева*/;
+				margin-top: 7px/*Отступ сверху*/;
+				font-size: 110%/*Размер шрифта внутри поля*/;
+}
+/*ПОЛЕ ДЛЯ ВВОДА ТЕКСТА ПРИ НАВЕДЕНИИ*/
+.Kontakt input:hover {
+				border: 1px solid #C0C0C0 /*Рамка (толщина, начертание,цвет*/;
+}
+/*ПОЛЕ ДЛЯ ВВОДА ДЛИННОГО СООБЩЕНИЯ */
+.Kontakt textarea {
+				width: 80%/*Ширина*/;
+				height: 100px /*Высота*/;
+				background-color: #FFFFFF /*Цвет фона*/;
+				border: 1px solid #E1E1E1 /*Рамка (толщина, начертание,цвет*/;
+				webkit-border-radius: 5px /*Скругление углов*/;
+				moz-border-radius: 5px /*Скругление углов*/;
+				border-radius: 5px/*Скругление углов*/;
+				padding-right: 20px /*Отступ текста при вводе в поле справа*/;
+				padding-left: 20px /*Отступ текста при вводе в поле слева*/;
+				margin-bottom: 7px /*Отступ от поля вниз*/;
+				margin-top: 7px/*Отступ сверху*/;
+				font-size: 150%/*Размер шрифта внутри поля*/;
+}
+/*ПОЛЕ ДЛЯ ВВОДА ДЛИННОГО СООБЩЕНИЯ ПРИ НАВЕДЕНИИ*/
+.Kontakt textarea:hover {
+				border: 1px solid #C0C0C0 /*Рамка (толщина, начертание,цвет*/;
+}
+/*ВЫПАДАЮЩИЙ СПИСОК*/
+.Kontakt select {
+				width: 70%/*Ширина*/;
+				height: 35px /*Высота*/;
+				background-color: #FFFFFF /*Цвет фона*/;
+				border: 1px solid #E1E1E1 /*Рамка (толщина, начертание,цвет*/;
+				webkit-border-radius: 5px /*Скругление углов*/;
+				moz-border-radius: 5px /*Скругление углов*/;
+				border-radius: 5px /*Скругление углов*/;
+				margin-bottom: 7px /*Отступ от поля вниз*/;
+				margin-top: 7px/*Отступ сверху*/;
+				padding-right: 20px /*Отступ текста при вводе в поле справа*/;
+				padding-left: 20px /*Отступ текста при вводе в поле слева*/;
+				font-size: 100%/*Размер шрифта*/;
+}
+
+.Zakaz select:hover {
+				border: 1px solid #C0C0C0 /*Контур вокруг поля (толщина, начертание,цвет*/;
+}
+
+/*ПОЛЕ ДЛЯ ВВОДА ДЛИННОГО СООБЩЕНИЯ ПРИ НАВЕДЕНИИ*/
+.Kontakt table th select:hover {
+				border: 1px solid #C0C0C0 /*Рамка (толщина, начертание,цвет*/;
+}
+/*КНОПКА ОТПРАВИТЬ */
+.Kontakt table th input.knopka {
+				width: 180px/*Ширина*/;
+				height: auto /*Высота*/;
+				padding: 10px 15px 10px 15px/*Размер кнопки*/;
+				font-size: 100%/*Размер шрифта*/;
+				color: #333333/*Цвет шрифта*/;
+				background-color: #E6E6E6/*Цвет фона*/;
+				text-decoration: none/*Убирает подчеркивание*/;
+				text-transform: none/*Убирает начертание*/;
+				text-align: center/*Текст по центре кнопки*/;
+				border: 1px solid #C0C0C0/*Контур вокруг кнопки*/;
+				webkit-border-radius: 5px/*Скругление углов*/;
+				moz-border-radius: 5px/*Скругление углов*/;
+				border-radius: 5px/*Скругление углов*/;
+				margin-right: 0px/*Отступ справа*/;
+				margin-left: 0px/*Отступ слева*/;
+				margin-top: 20px/*Отступ сверху*/;
+				cursor: pointer /* Меняет внешний вид курсора на руку */;
+}
+/*КНОПКА ОТПРАВИТЬ ПРИ НАВЕДЕНИИ */
+.Kontakt table th input.knopka:hover {
+				background-color: #DBDBDB/* Фон при наведении */;
+}

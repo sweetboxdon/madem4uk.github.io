@@ -1,0 +1,36 @@
+﻿/*АККОРДЕОН */
+.accordion {
+				border: 1px solid #ddd/*Рамка вокруг всего аккордеона */;
+				border-top: none/*Удаляет рамку сверху */;
+				float: center/*Выпавнивание по центру */;
+				width: 100%/*Ширина */;
+				position: relative;
+				margin-bottom: 25px; /*Отступ снизу под аккордеоном */
+}
+.accordion a {
+				display: block;
+				text-decoration: none;
+}
+/*ЗАГОЛОВОК*/
+.accordion h2 {
+				padding: 12px 15px 12px 15px/* Отступ со всех сторон */;
+				background-color: #F7F7F7/* Фон заголовка */; ;
+				border-top: 1px solid #ddd/*Рамка сверху */;
+				color: #333333; /*Цвет шрифта */;
+				font-size: 100%; /*Размер шрифта */;
+				height: auto; /*Ширина полосы с заголовком */;
+				margin: 0 0 0 0/*Убирает отступы*/;
+				cursor: pointer/*Курсор в виде ссылки */;
+				font-family: Verdana/*Шрифт */;
+				line-height: 165% /*Расстояние между строк*/;
+}
+/*ЗАГОЛОВОК ПРИ НАВЕДЕНИИ*/
+.accordion h2:hover {
+				background-color: #EEEEEE; /*Фон */;
+}
+/*Блок в который нужно размещать весь контент. Вне этого блока контент вылезает за
+пределы Аккордеона */
+.acc {
+				width: 95%; /*Ширина блока меньше ширины Аккордеона, чтобы были поля */;
+				margin: 0 auto /*Размещение по центру страницы*/;
+}

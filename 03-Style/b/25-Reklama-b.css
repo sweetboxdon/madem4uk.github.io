@@ -1,0 +1,29 @@
+﻿/*РЕКЛАМНЫЙ БЛОК*/
+.Reklama {
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				background-color: #FCFCFC/* Цвет фона */;
+				margin-bottom: 30px /* Отступ внизу таблицы */;
+}
+/* ЯЧЕЙКА С КАРТИНКОЙ */
+.Reklama th {
+				padding: 20px/*отступ картинки со всех сторон */;
+				width: 40% /* Ширина */;
+				height: auto /* Высота */;
+				vertical-align: top /* Выравнивание по вертикали: верх */;
+				text-align: left /*Текст слева*/;
+}
+/* КАРТИНКА */
+.Reklama th img {
+				border: 1px solid #E6E6E6/* Рамка вокруг картинки */;
+				display: block/* Растягивает картинку на ширину ячейки */;
+}
+/* ЯЧЕЙКА С ТЕКСТОМ */
+.Reklama td {
+				width: 60% /*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: top /* Выравнивание по вертикали: верх */;
+				text-align: left /*Текст слева*/;
+				border: 0px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+				padding-top: 10px/* Отступ над текстом */;
+}

@@ -1,0 +1,37 @@
+﻿/* БЛОК С ТОВАРОМ */
+.Tovar {
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				background-color: #FCFCFC/* Фон блока */;
+				margin-bottom: 30px /* Отступ внизу таблицы */;
+}
+/* ЯЧЕЙКА С КАРТИНКОЙ */
+.Tovar th {
+				padding: 20px/*Отступ картинки со всех сторон */;
+				width: 40% /* Ширина */;
+				height: auto /* Высота */;
+				vertical-align: top /* Выравнивание по вертикали: верх */;
+				text-align: left /*Текст слева*/;
+}
+/* КАРТИНКА */
+.Tovar th img {
+				border: 1px solid #E6E6E6/* Контур вокруг картинки */;
+				display: block/* Растягивает картинку на ширину ячейки */;
+}
+/* ЯЧЕЙКА С ТЕКТОМ */
+.Tovar td {
+				width: 60% /*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: top /* Выравнивание по вертикали: верх */;
+				text-align: left /*Текст слева*/;
+				border: 0px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+				padding-top: 10px/* Отступ текста сверху */;
+}
+/* ЦЕНА ТОВАРА */
+.Tovar td h3 {
+				color: #CC3300/* Цвет цены товара */;
+}
+/* БЛОК ПРИ НАВЕДЕНИИ */
+.Tovar:hover {
+				box-shadow: 0px 0px 2px 2px #EAEAEA/* Тень вокруг блока товара */;
+}

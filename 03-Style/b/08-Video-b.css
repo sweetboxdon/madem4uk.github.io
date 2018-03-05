@@ -1,0 +1,38 @@
+﻿/*ВИДЕО*/
+.Video {
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				margin-bottom: 30px /* Отступ внизу таблицы */;
+				border: 1px solid #E1E1E1 /* Толщина, внешний вид , цвет границы */;
+				background-color: #F9F9F9;
+				margin-top: 0px /* Отступ сверху таблицы */;
+}
+/*ЯЧЕЙКА С ВИДЕО*/
+.Video th {
+				vertical-align: middle /* Выравнивание по вертикали: середина */;
+				text-align: left /*Текст слева*/;
+				padding: 0px;
+}
+/*ЯЧЕЙКА С ОПИСАНИЕМ*/
+.Video td {
+				padding: 15px;
+				vertical-align: middle /* Выравнивание по вертикали: середина */;
+				text-align: left /*Текст слева*/;
+				font-size: 90%;
+}
+/*СТИЛИ АДАПТАЦИИ*/
+.Video-block {
+				position: relative;
+				padding-bottom: 51.25%;
+				padding-top: 30px;
+				height: 0;
+				overflow: hidden;
+}
+/*СТИЛИ АДАПТАЦИИ*/
+.Video-block iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+}

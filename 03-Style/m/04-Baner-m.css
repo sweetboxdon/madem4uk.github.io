@@ -1,0 +1,64 @@
+/*БАННЕР*/
+.Baner {		width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				background-color: #FFFFFF/* Фон баннера */;
+				}
+/*ЯЧЕЙКА С КАРТИНКОЙ*/
+.Baner th {
+				width: auto /* Ширина */;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: середина */;
+				text-align: center /*Текст слева*/;
+				display: block/* Адаптирует ячейку */;
+}
+/*КАРТИНКА*/
+.Baner th img {
+				display: block/* Адаптирует картинку */;
+}
+/*ЯЧЕЙКА С ТЕКСТОМ*/
+.Baner td {
+				width: auto /*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: середина */;
+				text-align: center /*Текст слева*/;
+				padding-right: 10px/* Отступ текста справа */;
+				padding-left: 10px/* Отступ текста слева */;
+				display: block/* Адаптирует ячейку */;
+}
+/*МАРКИРОВАННЫЙ СПИСОК*/
+.Baner ul {
+				margin-left: -20px/* Сдвигает список влево */;
+				list-style-type: none;
+}
+/*ЦЕНА*/
+.Baner h3 {
+				font-size: 150%/* Размер шрифта цены */;
+				color: #CC3300/* Цвет шрифта цены */;
+}
+
+/* ТЕКСТ ДЛЯ ПЛАНШЕТОВ БОЛЬШЕ 600 пиксел */
+@media screen and (min-width: 595px)
+{
+/*ТЕКСТ ДЛЯ ПЛАНШЕТОВ*/
+.Baner p {
+				font-size: 130%/* Размер шрифта */;
+				line-height: 175% /*Расстояние между строк*/;
+
+}
+/*ЗАГОЛОВОК ДЛЯ ПЛАНШЕТОВ*/
+.Baner h2 {
+				font-size: 210%/* Размер шрифта */;
+				font-weight: 400/* Удаляет жирное начертание */;
+}
+.Baner td {
+				
+				padding-right: 35px/* Отступ текста справа */;
+				padding-left: 35px/* Отступ текста слева */;
+				}
+				/*МАРКИРОВАННЫЙ СПИСОК*/
+.Baner ul {
+				font-size: 130%/* Размер шрифта */;
+				line-height: 175% /*Расстояние между строк*/;
+
+}}
+

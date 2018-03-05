@@ -1,0 +1,56 @@
+﻿/*БЛОК-ССЫЛКА ДЛЯ ВЕРТИКАЛЬНОГО МЕНЮ*/
+a.Blok-Ssylka {
+				display: block; /* Ссылка как блочный элемент */;
+				color: #808080/* Цвет шрифта */;
+				text-decoration: none/* Удаляет подчеркивание */;
+				background-color: #FCFCFC/* Цвет фона */;
+}
+/*БЛОК-ССЫЛКА ПРИ НАВЕДЕНИИ*/
+a.Blok-Ssylka:hover {
+				color: #000000/* Цвет шрифта */;
+				text-decoration: none/* Убирает подчеркивание */;
+				background-color: #F8F8F8/* Фон */;
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+}
+				
+
+/*БЛОК-ССЫЛКА НА ТЕКУЩЕЙ СТРАНИЦЕ*/
+a.Blok-Ssylka2 {
+				display: block; /* Ссылка как блочный элемент */;
+				color: #000000/* Цвет шрифта */;
+				text-decoration: none/* Убирает подчеркивание */;
+				background-color: #F8F8F8/* Фон */;
+}
+/* ТАБЛИЦА С КАРТИНКОЙ И ТЕКСТОМ */
+.Menu-Vertikal-Blok-Ssylka {
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				background-color: /*Цвет фона*/;
+				margin-bottom: 0px/* Убирает наследуемый отступ снизу */;
+				border: 0px solid #FFFFFF/* Убирает наследуемую рамку */;
+}
+/* ЯЧЕЙКА С КАРТИНКОЙ */
+.Menu-Vertikal-Blok-Ssylka td {
+				padding: 7px/*Отступ картинки со всех сторон */;
+				width: 30% /* Ширина */;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: верх */;
+				text-align: left /*Текст слева*/;
+				border: 0px solid #FFFFFF/* Убирает контур */;
+}
+/* КАРТИНКА */
+.Menu-Vertikal-Blok-Ssylka th img {
+				display: block/* Растягивает картинку на всю ширину */;
+}
+/* ЯЧЕЙКА С ТЕКСТОМ */
+.Menu-Vertikal-Blok-Ssylka td+td {
+				width: 70% /*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: верх */;
+				text-align: left /*Текст слева*/;
+				border: 0px solid #FFFFFF/*Убирает рамку*/;
+				font-size: 85%/* Размер ШРИФТА */;
+				padding-right: 10px/* Отступ шрифта СПРАВА */;
+}

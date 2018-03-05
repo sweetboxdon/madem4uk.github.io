@@ -1,0 +1,8 @@
+﻿/*ВЕРТИКАЛЬНОЕ МЕНЮ ИЗЧЕЗАЕТ В МОБИЛЬНОЙ ВЕРСИИ*/
+.Menu-Vertikal-sprava-tabl {
+				display: none;
+}
+/* ЯЧЕЙКА С РАЗДЕЛАМИ МЕНЮ */
+.Menu-Vertikal-sprava-tabl td {
+				display: none;
+}

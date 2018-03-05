@@ -1,0 +1,33 @@
+﻿/*КРОШКИ СТРОКА НАВИГАЦИИ*/
+.Kroshki {
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				border: 0px solid #E1E1E1 /* Толщина, внешний вид , цвет границы */;
+				font-size: 90% /*Размер шрифта*/;
+				color: #575757 /*Цвет шрифта*/;
+				margin-top: 20px/* Отступ сверху */;
+				margin-bottom: 10px /* Отступ внизу */;
+}
+/*ЯЧЕЙКА СО ССЫЛКАМИ*/
+.Kroshki td {
+				border: 0px solid #E1E1E1 /* Толщина, внешний вид , цвет границы */;
+				padding-left: 0px/* Отступ слева */;
+				padding-right: 0px/* Отступ справа */;
+}
+/*СТИЛЬ ССЫЛКИ*/
+.Kroshki a {
+				color: #575757 /*Цвет шрифта*/;
+				text-decoration: none/* Убирает подчеркивание текста */;
+}
+/*СТИЛЬ ССЫЛКИ ПРИ НАВЕДЕНИИ*/
+.Kroshki a:hover {
+				color: #666666 /*Цвет шрифта*/;
+				text-decoration: underline/* Убирает подчеркивание текста */;
+}
+/*ИКОНКА*/
+.Kroshki img {
+				width: 20px/* Ширина иконки */;
+				height: auto;
+				vertical-align: middle/* Иконка по середине текста */;
+				margin-bottom: 4px/*Расстояние между иконкой и текстом */;
+}

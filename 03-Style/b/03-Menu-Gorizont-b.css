@@ -1,0 +1,109 @@
+﻿/*ГОРИЗОНТАЛЬНОЕ МЕНЮ*/
+.Menu-Gorizont-tabl {
+				width: 100% /* Ширина вертикального меню */;
+				height: auto /* Высота */;
+				margin-bottom: 0px/* Фиксированное меню ставь 0, обычное 20 */;
+				border: 1px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+}
+/*ЯЧЕЙКА МЕНЮ*/
+.Menu-Gorizont-tabl td {
+				border: 0px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+				padding: 0px /*Убирает отступ в 1пс от границы ячейки*/;
+}
+/*ИКОНКА ВМЕСТО ТЕКСТА*/
+.Menu-Gorizont-tabl td img {
+				width: 23px;/*Размер рисунка в обычной ячейке*/;
+				height: auto;
+}
+/*НЕВИДИМАЯ ЯЧЕЙКА (ДЛЯ МОБИЛЬНОЙ ВЕРСИИ)*/
+.Menu-Gorizont-tabl th {
+				border: 0px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+				padding: 0px /*Убирает отступ в 1пс от границы ячейки*/;
+				display: none; /*Убирает ячейку с МЕНЮ из версии для Монитора*/
+}
+/*ИКОНКА В НЕВИДИМОЙ ЯЧЕЙКЕ*/
+.Menu-Gorizont-tabl th img {
+				width: 20px; /*Отступ над меню*/;
+				height: auto/* Высота */;
+				vertical-align: middle; /*Выравнивает рисунок по центру*/;
+				margin-right: 5px; /*Расстояние между рисунком и словом меню*/
+}
+/*СТИЛЬ ГОРИЗОНТАЛЬНОГО МЕНЮ В ОБЫЧНОМ СОСТОЯНИИ*/
+.Menu-Gorizont {
+				padding: 9px 15px 9px 15px/*Размеры кнопки */;
+				color: #666666 /*Цвет шрифта*/;
+				background-color: #F0F0F0/*Цвет фона*/;
+				border-left-color: #E2E2E2 /*Цвет границы с левой стороны*/;
+				border-right-color: #F8F8F8 /*Цвет границы с правой стороны*/;
+				font-size: 80% /*Размер шрифта*/;
+				text-decoration: none /*Отменяет подчеркивание*/;/* Высота */;
+				display: block /*Растягивает кнопку на всю ячейку*/;
+				text-align: center /*Текст по центру кнопки*/;
+				border-right-width: 0px /*Толщина границы с правой стороны*/;
+				border-left-width: 0px /*Толщина границы с левой стороны*/;
+				border-right-style: solid /*Тип границы с правой стороны (сплошная линия)*/;
+				border-left-style: solid /*Тип границы с левой стороны (сплошная линия)*/;
+}
+/*СТИЛЬ ГОРИЗОНТАЛЬНОГО МЕНЮ ПРИ НАВЕДЕНИИ*/
+.Menu-Gorizont:hover {
+				color: #000000 /*Цвет шрифта*/;
+				background-color: #DBDBDB/*Цвет фона*/;
+				border-left-color: #CFCFCF /*Цвет границы с левой стороны*/;
+				border-right-color: #E2E2E2 /*Цвет границы с правой стороны*/;
+				font-size: 80% /*Размер шрифта*/;
+				text-decoration: none /*Отменяет подчеркивание*/;
+				display: block /*Растягивает кнопку на всю ячейку*/;
+				text-align: center /*Текст по центру кнопки*/;
+				border-right-width: 0px /*Толщина границы с правой стороны*/;
+				border-left-width: 0px /*Толщина границы с левой стороны*/;
+				border-right-style: solid /*Тип границы с правой стороны (сплошная линия)*/;
+				border-left-style: solid /*Тип границы с левой стороны (сплошная линия)*/;
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+}
+/*СТИЛЬ ГОРИЗОНТАЛЬНОГО МЕНЮ НА ТЕКУЩЕЙ СТРАНИЦЕ*/
+.Menu-Gorizont2 {
+				color: #000000 /*Цвет шрифта*/;
+				background-color: #DBDBDB/*Цвет фона*/;
+				border-left-color: #D4D4D4 /*Цвет границы с левой стороны*/;
+				border-right-color: #E2E2E2 /*Цвет границы с правой стороны*/;
+				font-size: 80% /*Размер шрифта*/;
+				text-decoration: none /*Отменяет подчеркивание*/;
+				display: block /*Растягивает кнопку на всю ячейку*/;
+				text-align: center /*Текст по центру кнопки*/;
+				border-right-width: 0px /*Толщина границы с правой стороны*/;
+				border-left-width: 0px /*Толщина границы с левой стороны*/;
+				border-right-style: solid /*Тип границы с правой стороны (сплошная линия)*/;
+				border-left-style: solid /*Тип границы с левой стороны (сплошная линия)*/;
+				padding: 9px 15px 9px 15px/*Размеры кнопки*/;
+}
+.Menu-Gorizont2:hover {
+				color: #000000 /*Цвет шрифта*/;
+				cursor: default/*Убирает курсор в виде ссылки*/;
+}
+/*СТИЛИ ФИКСИРОВАННОГО МЕНЮ*/
+#menu {
+				margin-bottom: 20px/*Отступ сверху*/;
+}
+/*ОБЫЧНОЕ СОСТОЯНИЕ МЕНЮ*/
+#menu.default {
+				width: 950px/*Ширина блока меню*/;
+				margin-top: -40px; /*Отступ устраняет дергание фиксированного меню*/;
+}
+/*ФИКСИРОВАННОЕ СОСТОЯНИЕ*/
+#menu.fixed {
+				width: 950px/*Ширина блока меню*/;
+				position: fixed/*Фиксирует положение меню*/;
+				top: 0/*Отступ фиксированного меню сверху*/;
+				margin: 0 auto 0 -30px /*Размещение по центру страницы*/;
+				-moz-box-shadow: 0px 0px 10px #C0C0C0/*Тени*/;
+				-webkit-box-shadow: 0px 0px 10px #C0C0C0/*Тени*/;
+				box-shadow: 0px 0px 10px #C0C0C0/*Тени*/;
+				z-index: 1000/*Поднимает меню над всеми блоками*/;
+				height: 55px /* Высота */;
+				padding-top: 10px/*Отступ сверху*/;
+				background-color: #FFFFFF/*Цвет фона блока*/;
+				padding-right: 30px/*Отступ внутри блока*/;
+				padding-left: 30px/*Отступ внутри блока*/;
+}

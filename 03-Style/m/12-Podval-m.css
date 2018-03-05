@@ -1,0 +1,45 @@
+﻿/*ПОДВАЛ САЙТА БЛОК ИЗЧЕЗАЕТ В МОБИЛЬНОЙ ВЕРСИИ*/
+#Podval {
+				width: 100% /*Ширина в процентах*/;
+				margin: 0 auto /*Размещение по центру страницы*/;
+				border: 1px solid #E4E4E4 /*Контур толщина, начертание, цвет*/;
+				padding-right: 0px /*Поля справа*/;
+				padding-left: 0px;
+				background-color: #E9E9E9;
+				display: none/*Убирает подвал*/;
+}
+.Podval {
+				width: auto /* Ширина */;
+				height: auto /* Высота */;
+				border: 0px solid #E4E4E4 /* Толщина, внешний вид , цвет границы */;
+				background: transparent;
+				display: none/*Убирает подвал*/;
+}
+.Podval td {
+				width: auto/*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: top /* Выравнивание по вертикали: середина */;
+				text-align: left /*Текст слева*/;
+				padding-bottom: 0px;
+				padding-left: 70px;
+				padding-top: 10px;
+				display: none/*Убирает подвал*/;
+}
+.Podval td + td {
+				padding-left: 70px;
+				display: none;
+}
+.Podval ul {
+				font-size: 90% /*Размер шрифта*/;
+				padding-left: 0px;
+				color: #666666;
+				line-height: 195% /*Расстояние между строк*/;
+}
+.Podval ul a {
+				color: #666666;
+				text-decoration: none;
+}
+.Podval ul a:hover {
+				color: #666666;
+				text-decoration: underline;
+}

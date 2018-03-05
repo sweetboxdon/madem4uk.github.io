@@ -1,0 +1,97 @@
+﻿/*ВЕРТИКАЛЬНОЕ МЕНЮ С ПРАВОЙ СТОРОНЫ*/
+.Menu-Vertikal-sleva-tabl {
+				width: 92% /* Ширина долна быть меньше 100% */;
+				height: auto /* Высота */;
+				float: left/* Смещает все меню ВПРАВО до упора */;
+				margin-bottom: 0px/* Убирает отступ внизу */;
+}
+/* ЯЧЕЙКА С РАЗДЕЛАМИ МЕНЮ */
+.Menu-Vertikal-sleva-tabl td {
+				width: auto /* Ширина */;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: середина */;
+				text-align: left /*Текст слева*/;
+				padding: 0px/*Удаляет отступы в 1 пиксел*/;
+				border: 1px solid #EBEBEB /* Толщина, внешний вид , цвет границы */;
+}
+
+/* ЯЧЕЙКА С ЗАГОЛОВКОМ */
+.Menu-Vertikal-sleva-tabl th {
+				width: auto /* Ширина */;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: середина */;
+				text-align: left /*Текст слева*/;
+				padding: 0px;
+				border: 1px solid #EBEBEB /* Толщина, внешний вид , цвет границы */;
+				background-color: #F4F4F4;
+}
+
+/* ЗАГОЛОВОК МЕНЮ */
+.Menu-Vertikal-sleva-tabl H4 {
+				margin: 14px 15px 14px 15px/* Отступы с разных сторон */;
+				color: #000000/* Цвет заголовка */;
+				text-align: left /*Текст слева*/;
+				font-size: 120%/* Размер шрифта */;
+				font-family: Verdana;
+}
+/* КАРТИНКА В МЕНЮ*/
+.Menu-Vertikal-sleva-tabl img {
+				display: block /* Растягивает картинку на всю ширину меню */;
+				width: 100%/* Размер картинки внутри ячейки заголовка */;
+				height: auto;
+				-webkit-transition: all 0.3s ease /* Плавное изменение при наведении */;
+				-moz-transition: all 0.3s ease /* Плавное изменение при наведении */;
+				-o-transition: all 0.3s ease /* Плавное изменение при наведении */;
+}
+/* КАРТИНКА ПРИ НАВЕДЕНИИ */
+.Menu-Vertikal-sleva-tabl img:hover {
+				box-shadow: 0px 0px 0px 0px #999999 /*Тень(горизонт, вертикаль, размытие, толщина, цвет)*/;
+				-webkit-transform: scale(0.95)/*Уменьшает картинку*/;
+				-ms-transform: scale(0.95)/*Уменьшает картинку*/;
+				transform: scale(0.95)/*Уменьшает картинку*/;
+}
+/*ВЕРТИКАЛЬНОЕ МЕНЮ ВНЕШНИЙ ВИД */
+.Menu-Vertikal-sleva {
+				font-family: Verdana /*Шрифт*/;
+				font-size: 95% /*Размер шрифта*/;
+				color: #888888 /*Цвет шрифта*/;
+				background-color: #FCFCFC /*Цвет фона*/;
+				text-decoration: none /*Отменяет подчеркивание*/;
+				padding: 12px 15px 12px 15px /* Отступы сверху справа снизу слева */;
+				display: block /*Растягивает кнопку на всю ячейку*/;
+				text-align: left /*Текст слева кнопки*/;
+				line-height: 145% /* Расстояние между строк */;
+}
+/*ВЕРТИКАЛЬНОЕ МЕНЮ ПРИ НАВЕДЕНИИ */
+.Menu-Vertikal-sleva:hover {
+				font-family: Verdana /*Шрифт*/;
+				font-size: 95% /*Размер шрифта*/;
+				background-color: #F4F4F4; /*Цвет фона*/;
+				color: #000000; /*Цвет шрифта*/;
+				text-decoration: none /*Отменяет подчеркивание*/;
+				padding: 12px 15px 12px 15px /* Отступы сверху справа снизу слева */;
+				display: block /*Растягивает кнопку на всю ячейку*/;
+				text-align: left /*Текст слева кнопки*/;
+				line-height: 145% /* Расстояние между строк */;
+				transition: all 0.5s ease; /*Скорость реакции кнопки*/;
+				webkit-transition: all 0.5s ease; /*Скорость реакции кнопки*/;
+				moz-transition: all 0.5s ease; /*Скорость реакции кнопки*/;
+				o-transition: all 0.5s ease; /*Скорость реакции кнопки*/;
+}
+/*ВЕРТИКАЛЬНОЕ МЕНЮ ПОДСВЕТКА */
+.Menu-Vertikal-sleva2 {
+				font-family: Verdana /*Шрифт*/;
+				font-size: 95% /*Размер шрифта*/;
+				background-color: #F4F4F4; /*Цвет фона*/;
+				color: #000000; /*Цвет шрифта*/;
+				text-decoration: none /*Отменяет подчеркивание*/;
+				padding: 12px 15px 12px 15px /* Отступы сверху справа снизу слева */;
+				display: block /*Растягивает кнопку на всю ячейку*/;
+				text-align: left /*Текст слева кнопки*/;
+				line-height: 145% /* Расстояние между строк */;
+}
+/*ВЕРТИКАЛЬНОЕ МЕНЮ ПОДСВЕТКА ПРИ НАВЕДЕНИИ */
+.Menu-Vertikal-sleva2:hover {
+				color: #000000; /*Цвет шрифта*/;
+				cursor: default/*Убирает курсор*/;
+}

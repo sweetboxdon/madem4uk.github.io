@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+<meta http-equiv="Content-Language" content="ru" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>19-Заказ</title>
+
+<!--[if IE ]> <link rel="stylesheet" href="../03-Style/b/01-Baza-b.css" /><![endif]-->
+<!--[if IE ]> <link rel="stylesheet" href="../03-Style/b/19-Zakaz-b.css" /><![endif]-->
+<link rel="stylesheet" media="screen and (min-width: 801px) " href="../03-Style/b/01-Baza-b.css" />
+<link rel="stylesheet" media="screen and (max-width: 800px) " href="../03-Style/m/01-Baza-m.css" />
+<link rel="stylesheet" media="screen and (min-width: 801px) " href="../03-Style/b/19-Zakaz-b.css" />
+<link rel="stylesheet" media="screen and (max-width: 800px) " href="../03-Style/m/19-Zakaz-m.css" />
+
+</head>
+
+<body>
+<form method="post" action="zakaz-send.php" class="Zakaz">
+	<table>
+		<tr>
+			<td >
+			<img alt="" src="../06-Iconki/Package-26%20(1).png" style="width: 26px; height: 26px" />Укажите 
+			товар:</td>
+			<th><textarea name="tovar" cols="20" rows="2"></textarea></th>
+		</tr>
+		<tr>
+			<td>
+			<img alt="" src="../06-Iconki/Contacts%20Filled-25.png" style="width: 25px; height: 25px" />Ваше 
+			ФИО:</td>
+			<th><input name="familiya" type="text" /></th>
+		</tr>
+		<tr>
+			<td>
+			<img alt="" src="../06-Iconki/Email-26.png" style="width: 26px; height: 26px" />Эл. 
+			почта:</td>
+			<th><input name="email" type="text" /></th>
+		</tr>
+		<tr>
+			<td>
+			<img alt="" src="../06-Iconki/Blackberry-26.png" style="width: 26px; height: 26px" />Телефон:</td>
+			<th><input name="telefon" type="text" /></th>
+		</tr>
+		<tr>
+			<td>
+			<img alt="" src="../06-Iconki/Map%20Marker-24.png" style="width: 24px; height: 24px" />Полный 
+			адрес:</td>
+			<th><textarea name="adress" cols="20" rows="2"></textarea></th>
+		</tr>
+		<tr>
+			<td>
+			<img alt="" src="../06-Iconki/Comments-24.png" style="width: 24px; height: 24px" />Комментарии:</td>
+			<th><textarea name="komment" cols="20" rows="2"></textarea></th>
+		</tr>
+		<tr>
+			<td>
+			<img alt="" src="../06-Iconki/Truck-26-2.png" style="width: 26px; height: 26px" />Доставка:</td>
+			<th><select name="dostavka">
+			<option selected="selected" value="Выберите способ оплаты">Выберите 
+		способ доставки</option>
+		<option>Самовывоз (0 руб.)</option>
+		<option>Пункт выдачи (290 руб.)</option>
+		<option>Почта России (450 руб.)</option>
+		<option>Курьер (500 - 1200 руб.)</option>
+		<option>ТК Деловые Линии (450 руб.)</option>
+			</select></th>
+		</tr>
+		<tr>
+			<td>
+			<img alt="" src="../06-Iconki/Purse-26%20(1).png" style="width: 26px; height: 26px" />Оплата:</td>
+			<th><select name="oplata">
+			<option selected="selected" value="Выберите способ оплаты">Выберите 
+		способ оплаты</option>
+		<option>Наличными курьеру</option>
+		<option>Пластиковая карта</option>
+		<option>Отделение Сбербанка</option>
+		<option>Терминал</option>
+		<option>Яндекс деньги</option>
+		<option>На счет компании</option>
+			</select></th>
+		</tr>
+		<tr>
+			<td>
+			&nbsp;</td>
+			<th>
+			<input name="Button" type="submit" value="Отправить заявку" class="knopka" /></th>
+		</tr>
+	</table>
+</form>
+
+				</body>
+
+</html>

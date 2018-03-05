@@ -1,0 +1,59 @@
+﻿/*ТЕЛО САЙТА*/
+.Тelo {
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				border: 0px solid #E1E1E1 /* Толщина, внешний вид , цвет границы */;
+}
+/*ЯЧЕЙКА С КОНТЕНТОМ*/
+.Тelo td {
+				width: auto /*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: top /* Выравнивание по вертикали: верх */;
+				text-align: left /*Текст слева*/;
+				border: 0px solid #E1E1E1 /* Толщина, внешний вид , цвет границы */;
+}
+/*ЯЧЕЙКА С МЕНЮ*/
+.Тelo th {
+				width: 0% /* Ширина */;
+				border: 0px solid #E1E1E1 /* Толщина, внешний вид , цвет границы */;
+				vertical-align: top /* Выравнивание по вертикали: верх */;
+				text-align: left /*Текст слева*/;
+}
+/* КНОПКА НАВЕРХ */
+#back-to-top {
+				position: fixed;
+				z-index: 999;
+				display: none;
+				bottom: -25px;
+				right: 0px;
+				cursor: pointer;
+}
+#back-to-top p {
+				width: 45px/* Ширина */;
+				height: 45px/* Высота */;
+				display: block;
+				color: #fff/* ЦВЕТ НАДПИСИ В КНОПКЕ */;
+				background: #808080 /*ЦВЕТ КНОПКИ */;
+				text-align: center;
+				font-size: 16px/* РАЗМЕР ШРИФТА В КНОПКЕ */;
+				line-height: 44px;
+				-webkit-transition: .3s all;
+				-moz-transition: .3s all;
+				-ms-transition: .3s all;
+				-o-transition: .3s all;
+				transition: .3s all;
+}
+#back-to-top p:hover {
+				background: #999999/* ЦВЕТ КНОПКИ ПРИ НАВЕДЕНИИ */;
+}
+
+.teloblok
+{
+				width: auto /*Ширина белого листа сайта*/;
+				height: auto /* Высота */;
+				border: 0px solid #E4E4E4 /*Контур толщина, начертание, цвет*/;
+				box-shadow: 0px 0px 0px 0px #EAEAEA /*Тень(горизонт, вертикаль, размытие, толщина)*/;
+				margin: 0 auto /*Размещение по центру страницы*/;
+				background-color: #FFFFFF /*Фон листа*/;
+				
+}

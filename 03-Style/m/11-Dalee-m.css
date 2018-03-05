@@ -1,0 +1,26 @@
+﻿/*БЛОК ВАЖНАЯ ИНФОРМАЦИЯ*/
+.Dalee {
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				background-color: #F9F9F9/*Фон*/;
+				margin-bottom: 30px /* Отступ внизу таблицы */;
+}
+/* ЯЧЕЙКА ОБЫЧНАЯ */
+.Dalee td {
+				vertical-align: top /* Выравнивание по вертикали: верх */;
+				text-align: left /*Текст слева*/;
+}
+/* ССЫЛКА */
+.Dalee a {
+				color: #2A2A2A /*Цвет шрифта*/;
+				text-decoration: none;
+}
+/* ССЫЛКА ПРИ НАВЕДЕНИИ */
+.Dalee a:hover {
+				text-decoration: underline/*Подчеркивание при наведении*/;
+}
+/* СТРОКА СПИСКА */
+.Dalee li {
+				margin-bottom: 10px/*Увеличивает расстояние между строчками для удобства в мобильной версии*/;
+}
+

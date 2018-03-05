@@ -1,0 +1,36 @@
+﻿/*БЛОК СТАТЬИ*/
+.Stati {
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				margin-bottom: 30px /* Отступ внизу таблицы */;
+				background-color: #FCFCFC/* Фон*/;
+}
+/* ЯЧЕЙКА С КАРТИНКОЙ */
+.Stati th {
+				width: 30% /* Ширина */;
+				height: auto /* Высота */;
+				vertical-align: top /* Выравнивание по вертикали: середина */;
+				text-align: right /*Текст слева*/;
+				padding: 20px 20px 20px 25px; /*отступ картинки со всех сторон */
+				border: 0px solid #E6E6E6/*Убирает контур вокруг ячейки*/;
+
+}
+/* КАРТИНКА */
+.Stati th img {
+				border: 1px solid #E6E6E6/* Контур вокруг картинки */;
+				display: block/* Растягивает картинку */;
+}
+/* ЯЧЕЙКА С ТЕКСТОМ */
+.Stati td {
+				width: auto /*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: top /* Выравнивание по вертикали: середина */;
+				text-align: left /*Текст слева*/;
+				border: 0px solid #E6E6E6/*Убирает контур вокруг ячейки*/;
+
+}
+/* ЗАГОЛОВОК */
+.Stati h4 {
+				margin-bottom: 5px/* Отступ заголовка снизу */;
+				margin-top: 15px/* Отступ заголовка сверху */;
+}

@@ -1,0 +1,12 @@
+﻿/*БЛОК ВАЖНАЯ ИНФОРМАЦИЯ*/
+.Vnimanie {
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				background-color: #FFFFE6/* Цвет фона*/;
+				margin-bottom: 30px /* Отступ внизу таблицы */;
+}
+/* ЯЧЕЙКА ОБЫЧНАЯ */
+.Vnimanie td {
+				vertical-align: top /* Выравнивание по вертикали: верх */;
+				text-align: left /*Текст слева*/;
+}

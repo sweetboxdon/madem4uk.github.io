@@ -1,0 +1,35 @@
+﻿/*ВЫПАДАЮЩИЙ СПИСОК */
+.Spisok {
+				width: 100% /* Ширина списка */;
+				height: auto /* Высота  */;
+				border: 0px solid #E1E1E1 /* Толщина, внешний вид , цвет границы */;
+				
+}
+.Spisok td {
+				width: auto /*Ширина ячейки с КОНТЕНТОМ*/;
+				height: auto /* Высота */;
+				border: 0px solid #E1E1E1 /* Толщина, внешний вид , цвет границы */;
+				padding-right: 0px/*Отступ справа */;
+				padding-left: 0px;
+}
+.Spisok form {
+				width: auto /* Ширина списка */;
+				font-size: 100%/*Размер шрифта */;
+				text-align: center;
+				max-width: 350px /* Ширина списка */;
+}
+.Spisok select {
+				width: 100% /* Ширина  */;
+				height: 40px /* Высота  */;
+				font-size: 100%/* Размер шрифта */;
+				background-color: #006699/* Фон формы */;
+				color: #FFFFFF/* Цвет шрифта */;
+				text-align: center;
+				padding-left: 15px/* Отступ слева */;
+				cursor: pointer;
+}
+.Spisok option {
+				background-color: #F0F0F0/* Фон выпадающего списка */;
+				color: #333333/* Цвет шрифта */;
+				font-size: 120%/* Размер шрифта */;
+}

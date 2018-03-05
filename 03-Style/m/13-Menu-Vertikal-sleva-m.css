@@ -1,0 +1,7 @@
+﻿/*ВЕРТИКАЛЬНОЕ МЕНЮ ИЗЧЕЗАЕТ В МОБИЛЬНОЙ ВЕРСИИ*/
+.Menu-Vertikal-sleva-tabl {
+				display: none;
+}
+.Menu-Vertikal-sleva-tabl td {
+				display: none;
+}
